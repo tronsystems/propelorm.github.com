@@ -45,6 +45,12 @@ $ wget http://getcomposer.org/composer.phar
 $ curl -s http://getcomposer.org/installer | php
 ```
 
+Git is requires for the install.  If it isn't already installed
+```bash
+#e.g. Centos / RedHat
+$ yum install git
+```
+
 Finally, to install all your project's dependencies, type the following:
 
 ```bash
